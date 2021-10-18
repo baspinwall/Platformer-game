@@ -1,0 +1,8 @@
+Name           Date           Score
+brian          06/07/20       101098
+INSERT NAME    06/05/20       3222
+daryl          06/05/20       3116
+INSERT NAME    06/04/20       3089
+INSERT NAME    06/04/20       2968
+brian          06/08/20       1097
+brian          06/08/20       1086

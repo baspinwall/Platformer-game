@@ -1,0 +1,23 @@
+Welcome to our game, Pink Bean's Adventure!
+
+The objective of this game is to get to the finish line.
+Use you arrow keys to control your character and maneuver the map.
+
+Controls:
+'Left Key'  => move left
+'Right Key' => move right
+'Up Key'    => interact with game(portal)
+'SpaceBar'  => Jump
+'R'         => Restart (costs one life and start over from the last checkpoint)
+
+Each time you fall into a trap, you lose one of your 5 lives.
+
+Your final score will be based on 3 things:
+1.Timing
+2.Coins 
+3.Lives
+
+After you are done with the game, your highscore will be saved
+for you to view. 
+
+All the best in your journey!
