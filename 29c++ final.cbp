@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="29c++ final" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/29c++ final" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/29c++ final" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="D:/CodeBlocks/SFML-2.5.1/include" />
+		</Compiler>
+		<Linker>
+			<Add library="sfml-audio" />
+			<Add library="sfml-graphics" />
+			<Add library="sfml-window" />
+			<Add library="sfml-system" />
+			<Add directory="D:/CodeBlocks/SFML-2.5.1/lib" />
+			<Add directory="D:/CodeBlocks/SFML-2.5.1/bin" />
+		</Linker>
+		<Unit filename="../../Downloads/Animation.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Animation.cpp" />
+		<Unit filename="Animation.h" />
+		<Unit filename="Apple.cpp" />
+		<Unit filename="Apple.h" />
+		<Unit filename="Apple.png" />
+		<Unit filename="Coin.cpp" />
+		<Unit filename="Coin.h" />
+		<Unit filename="Coin.png" />
+		<Unit filename="Collider.cpp" />
+		<Unit filename="Collider.h" />
+		<Unit filename="Door.png" />
+		<Unit filename="EndFlag.png" />
+		<Unit filename="Erev.wav" />
+		<Unit filename="Fire.png" />
+		<Unit filename="FontLoadException.cpp" />
+		<Unit filename="FontLoadException.h" />
+		<Unit filename="Green.png" />
+		<Unit filename="Item.cpp" />
+		<Unit filename="Item.h" />
+		<Unit filename="Key.cpp" />
+		<Unit filename="Key.h" />
+		<Unit filename="Key.png" />
+		<Unit filename="OutOfBoundsException.cpp" />
+		<Unit filename="OutOfBoundsException.h" />
+		<Unit filename="PBs.png" />
+		<Unit filename="Platform.cpp" />
+		<Unit filename="Platform.h" />
+		<Unit filename="Player.cpp" />
+		<Unit filename="Player.h" />
+		<Unit filename="Portal.cpp" />
+		<Unit filename="Portal.h" />
+		<Unit filename="Portal.png" />
+		<Unit filename="Potion.cpp" />
+		<Unit filename="Potion.h" />
+		<Unit filename="Potion.png" />
+		<Unit filename="ResourcePath.hpp" />
+		<Unit filename="SoundLoadException.cpp" />
+		<Unit filename="SoundLoadException.h" />
+		<Unit filename="Spike.png" />
+		<Unit filename="TextureLoadException.cpp" />
+		<Unit filename="TextureLoadException.h" />
+		<Unit filename="Trap.cpp" />
+		<Unit filename="Trap.h" />
+		<Unit filename="arial.ttf" />
+		<Unit filename="joystix.ttf" />
+		<Unit filename="main.cpp" />
+		<Unit filename="resources/Font/arial.ttf" />
+		<Unit filename="resources/Font/joystix.ttf" />
+		<Unit filename="resources/Sounds/Ding.wav" />
+		<Unit filename="resources/Sounds/Erev.wav" />
+		<Unit filename="resources/Sounds/Key.wav" />
+		<Unit filename="resources/Sounds/Oof.wav" />
+		<Unit filename="resources/Sounds/Running.wav" />
+		<Unit filename="resources/Sounds/Sad Violin.wav" />
+		<Unit filename="resources/Sounds/Tuturu.wav" />
+		<Unit filename="resources/Sounds/Unlocked.wav" />
+		<Unit filename="resources/Sounds/Victory.wav" />
+		<Unit filename="resources/Sounds/Wow.wav" />
+		<Unit filename="resources/Sprites/Apple.png" />
+		<Unit filename="resources/Sprites/CheckpointFlag1.png" />
+		<Unit filename="resources/Sprites/CheckpointFlag2.png" />
+		<Unit filename="resources/Sprites/CheckpointFlag3.png" />
+		<Unit filename="resources/Sprites/Cloud.png" />
+		<Unit filename="resources/Sprites/Coin.png" />
+		<Unit filename="resources/Sprites/Door.png" />
+		<Unit filename="resources/Sprites/EndFlag.png" />
+		<Unit filename="resources/Sprites/Fire.png" />
+		<Unit filename="resources/Sprites/Green.png" />
+		<Unit filename="resources/Sprites/Key.png" />
+		<Unit filename="resources/Sprites/PBs.png" />
+		<Unit filename="resources/Sprites/Pink_Bean_intro.png" />
+		<Unit filename="resources/Sprites/Portal.png" />
+		<Unit filename="resources/Sprites/Potion.png" />
+		<Unit filename="resources/Sprites/Spike.png" />
+		<Unit filename="resources/Sprites/thorn.PNG" />
+		<Unit filename="resources/Text/TopScores.txt" />
+		<Unit filename="resources/Text/scores.txt" />
+		<Unit filename="resources/Text/welcometext.txt" />
+		<Unit filename="scores.txt" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
